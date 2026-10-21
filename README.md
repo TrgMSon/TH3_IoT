@@ -1,7 +1,7 @@
 # THỰC HÀNH: LẬP TRÌNH PYTHON VỚI GIAO THỨC CoAP
 
 ## 1. Thông tin nhóm thực hiện
-* **Bài 1:** Lăng Việt Thành - B23DCCN768
+* **Bài 1:** Lăng Viết Thành - B23DCCN768
 * **Bài 2:** Nguyễn Viết Hải - B23DCCN278
 * **Bài 3:** Trương Minh Sơn - B23DCCN726
 
