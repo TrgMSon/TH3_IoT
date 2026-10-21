@@ -2,7 +2,7 @@
 
 ## 1. Thông tin nhóm thực hiện
 * **Bài 1:** 
-* **Bài 2:** 
+* **Bài 2:** Nguyễn Viết Hải - B23DCCN278
 * **Bài 3:** Trương Minh Sơn - B23DCCN726
 
 ## 2. Môi trường và Thư viện sử dụng
@@ -26,9 +26,33 @@ pip install aiocoap
 - Giao thức: CoAP
 - Địa chỉ IP Server (chạy nội bộ): 127.0.0.1 (localhost)
 - Cổng (Port): 5683 (Cổng mặc định của CoAP)
-- URI tài nguyên: coap://127.0.0.1:5683/iot/lab/light01/status
+- URI tài nguyên: 
+  - coap://127.0.0.1:5683/iot/lab/sensor01/data
+  - coap://127.0.0.1:5683/iot/lab/light01/status
 
 ## 4. Hướng dẫn chạy chương trình
+
+## Bài 2. Mô phỏng cảm biến nhiệt độ và độ ẩm bằng CoAP
+
+### 1. Cách chạy chương trình: 
+
+- Terminal 1 - Khởi chạy CoAP Server:
+```
+python sensor_server_bai2.py
+```
+- Terminal 2 - Khởi chạy Monitoring Client:
+```
+python monitor_client_bai2.py
+```
+
+### 2. Kết quả đạt được:
+
+- Terminal 1:
+![alt text](image-sensor-server-bai2.png)
+
+- Terminal 2:
+![alt text](image-monitor-client-bai2.png)
+
 
 ## Bài 3. Mô phỏng hệ thống giám sát và điều khiển đèn thông minh bằng CoAP Observe
 
